@@ -1,4 +1,6 @@
+mod days;
+
 fn main() {
-    println!("Hello, world!");
-    println!("I'm a Rustacean");
+    days::first::hello();
+    print!("a + b = {}", days::second::add(3, 5));
 }
